@@ -1,6 +1,6 @@
 # 100 Days Of ML Code
 
-Starting today, 29 August 2018, I pledge to participate in and contribute to **100DaysOfMLCode** challenge by this wizard [Siraj Raval](https://github.com/llSourcell/100_Days_of_ML_Code), though it's a little late to start. 
+Starting today, 29 August 2018, I pledge to participate in and contribute to **100DaysOfMLCode** challenge by this wizard [Siraj Raval](https://github.com/llSourcell/100_Days_of_ML_Code), though it's a little late to start.
 
 ## Overview
 
@@ -17,3 +17,12 @@ For this **100DaysOfMLCode**, here I have listed some topics and projects, but n
 * Reading [Python Deep Learning Book](https://www.packtpub.com/big-data-and-business-intelligence/python-deep-learning)
 
 I will focus on the first 2 projects. Furthermore, I will read some articles on medium or other platforms to keep updated of some DS/ML/DL.
+
+## Goals
+
+At the end of this challenge, I hope I can gain some of my personal goals:
+
+* Solid on Machine Learning Algorithm, both practical and the math
+* Solid on Data Science cycle, especially in Exploratory Analysis part
+* Have 2 main projects each on Data Science and Machine Learning
+* Get exposure to and have well understand on Deep Learning concept and algorithm
