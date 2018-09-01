@@ -36,3 +36,23 @@ __Lesson to Learn:__
 
 - Need to manage time better
 - Prepare the environment before code
+
+
+## Day 2 - 31 Auguts, 2018
+
+__Process:__
+
+- TensorFlow review from DataCamp article: [TensorFlow Tutorial For Beginners (article) - DataCamp](https://www.datacamp.com/community/tutorials/tensorflow-tutorial?utm_source=adwords_ppc)
+- Hands-on the tutorials in Notebook
+
+__Achievement:__
+
+- Understand image data characteristic in ndarray format
+- Load image data from .ppm format using UDF load_data()
+- Exploratory image data
+
+__Lesson to Learn:__
+
+- Some dependencies aren't installed yet, so need to make sure that everything
+  is prepared
+- thoughts: what is tf.ConfigProto for?
