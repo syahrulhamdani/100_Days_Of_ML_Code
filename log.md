@@ -56,3 +56,22 @@ __Lesson to Learn:__
 - Some dependencies aren't installed yet, so need to make sure that everything
   is prepared
 - thoughts: what is tf.ConfigProto for?
+
+
+## Day 3 - 1 September, 2018
+
+__Process:__
+
+- Build neural network model using TensorFlow
+- Read chapter 1 of Python Deep Learning Book on Pakct
+
+__Achievement:__
+
+- Code neural network model using TensorFlow of Belgian Traffic Signs problem
+- More thorough understanding about machine learning concept as Deep Learning
+  foundation
+
+__Lesson to Learn:__
+
+- Need to keep focus while doing the challenge
+- Not so understand some Deep Learning and TensorFlow terms
