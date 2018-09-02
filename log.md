@@ -75,3 +75,20 @@ __Lesson to Learn:__
 
 - Need to keep focus while doing the challenge
 - Not so understand some Deep Learning and TensorFlow terms
+
+
+## Day 4 - 2 September, 2018
+
+__Process:__
+
+- Code basic classification using TensorFlow
+- Read chapter 2 of Python Deep Learning Book on Packt
+
+__Achievement:__
+
+- Successfully implement tensorflow tutorial for fashion-mnist image
+  classification
+
+__Lesson to Learn:__
+
+- Still need to configure the backend for deep learning environment
