@@ -92,3 +92,20 @@ __Achievement:__
 __Lesson to Learn:__
 
 - Still need to configure the backend for deep learning environment
+
+
+## Day 5 - 3 September, 2018
+
+__Process:__
+
+- Start project **drivendata competition**
+- Configure GUI in a docker container
+
+__Achievement:__
+
+- Importing _Pump it Up: Data Mining the Water Table_ dataset
+- Successfully configured GUI in a docker container: *by showing scatterplot of matplotlib*
+
+__Lesson to Learn:__
+
+- Getting used to unix environment
