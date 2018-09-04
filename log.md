@@ -109,3 +109,21 @@ __Achievement:__
 __Lesson to Learn:__
 
 - Getting used to unix environment
+
+
+## Day 6 - 4 September, 2018
+
+__Process:__
+
+- Continue to do exploratory analysis on Pump it Up Dataset
+- Configure OpenCV and its GUI on Docker Container using XQuartz
+
+__Achievement:__
+
+- Classified categorical and numerical features
+- Plot histogram of one example of categorical feature using Seaborn
+- Succesfully configure OpenCV and connect it to local display server
+
+__Lesson to Learn:__
+
+- Need to handle missing values, especially in categorical features first
