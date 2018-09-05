@@ -127,3 +127,21 @@ __Achievement:__
 __Lesson to Learn:__
 
 - Need to handle missing values, especially in categorical features first
+
+
+## Day 7 - 5 September, 2018
+
+__Process:__
+
+- Explore further on dataset _Pump it Up: Data Mining the Water Table_
+
+__Achievement:__
+
+- Get deep insights on both categorical and numerical features that may useful
+  for feature engineering
+
+__Lesson to Learn:__
+
+- From different option of handling missing value, choose an appropriate one
+- Need to check if there are sparse class in categorical feature that can be
+  fuse with other class in feature engineering
