@@ -161,3 +161,21 @@ __Lesson to Learn:__
 
 - Didn't have enough time to continue reading the paper, need a smart way to
   read all the paper points in limited time
+
+
+## Day 9 - 7 September, 2018
+
+__Process:__
+
+- Try out tensorflow inside Docker Container
+- Review how tensorflow works
+
+__Achievement:__
+
+- Built docker container environment specifically for TensorFlow running on
+  Jupyter Notebook
+- Reviewed how tensorflow works
+
+__Lesson to Learn:__
+
+- Build more docker container for next projects environment
