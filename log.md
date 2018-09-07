@@ -145,3 +145,19 @@ __Lesson to Learn:__
 - From different option of handling missing value, choose an appropriate one
 - Need to check if there are sparse class in categorical feature that can be
   fuse with other class in feature engineering
+
+
+## Day 8 - 6 September, 2018
+
+__Process:__
+
+- Reading a paper about learning spatiotemporal features using C3D
+
+__Achievement:__
+
+- Understood the difference between C3D and common 2D CNN
+
+__Lesson to Learn:__
+
+- Didn't have enough time to continue reading the paper, need a smart way to
+  read all the paper points in limited time
