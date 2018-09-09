@@ -179,3 +179,37 @@ __Achievement:__
 __Lesson to Learn:__
 
 - Build more docker container for next projects environment
+
+
+## Day 10 - 8 September, 2018
+
+__Process:__
+
+- Continue getting started on TensorFlow in Docker Container
+
+__Achievement:__
+
+- Understand how TensorFlow implement computational graph to train a model or
+  just compute something
+
+__Lesson to Learn:__
+
+- Having a little time to spend to do this challenge, I hope I can spend
+  a little more time
+
+
+## Day 11 - 9 September, 2018
+
+__Process:__
+
+- Start Keras Getting Started
+- Create a Blog/Portfolio template using GitHub Pages
+
+__Achievement:__
+
+- Understand how to create a simple single layer neural network on Keras
+- Decided to use Hyde as GitHub Theme of my blog
+
+__Lesson to Learn:__
+
+- Still need to spend more time for this challenge though
