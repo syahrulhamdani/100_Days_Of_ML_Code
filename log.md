@@ -213,3 +213,18 @@ __Achievement:__
 __Lesson to Learn:__
 
 - Still need to spend more time for this challenge though
+
+
+## Day 12 - 11 September, 2018
+
+__Process:__
+
+- Analyze feature to extract from drivendata competiton
+
+__Achievement:__
+
+- Feature candidate to extract
+
+__Lesson to Learn:__
+
+- Need to build function for automation of checking values of each feature pair
