@@ -228,3 +228,22 @@ __Achievement:__
 __Lesson to Learn:__
 
 - Need to build function for automation of checking values of each feature pair
+
+
+## Day 13 - 13 September, 2018
+
+__Process:__
+
+- Try keras demo tutorial from Udacity
+- Continue preprocessing of drivendata competition "Data Mining the Water Table"
+
+__Achievement:__
+
+- Build simple NN using keras for data toy classification
+- Modified district\_code feature
+
+__Lesson to Learn:__
+
+- Need to understand keras's abstraction of API
+- Double check for numerical feature for msireading about ordinal or nominal
+  categoric features
