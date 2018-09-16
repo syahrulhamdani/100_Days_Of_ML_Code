@@ -247,3 +247,20 @@ __Lesson to Learn:__
 - Need to understand keras's abstraction of API
 - Double check for numerical feature for msireading about ordinal or nominal
   categoric features
+
+
+## Day 14 - 16 September, 2018
+
+__Process:__
+
+- Start hands-on CNN using TensorFlow from Datacamp tutorial
+
+__Achievement:__
+
+- Hands-on tensorflow preprocessing process
+- Built CNN architecture
+- Created wrapper function for conv2d and max-pooling layers
+
+__Lesson to learn:__
+
+- So bad with time management, need to reschedule all previous agendas
