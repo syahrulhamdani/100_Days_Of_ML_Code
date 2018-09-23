@@ -264,3 +264,19 @@ __Achievement:__
 __Lesson to learn:__
 
 - So bad with time management, need to reschedule all previous agendas
+
+
+## Day 15 - 23 September, 2018
+
+__Process:__
+
+- Get started with PyTroch
+
+__Achievement:__
+
+- Hands-on simple array operation and built-in function of PyTorch
+
+__Lesson to Learn:__
+
+- Having some motivation issues lately. I hope to have it back tomorrow and the
+  next days
