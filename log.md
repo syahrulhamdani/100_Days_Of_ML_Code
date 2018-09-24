@@ -280,3 +280,20 @@ __Lesson to Learn:__
 
 - Having some motivation issues lately. I hope to have it back tomorrow and the
   next days
+
+
+## Day 16 - 24 September, 2018
+
+__Process:__
+
+- Build Neural Networks with PyTorch
+
+__Achievement:__
+
+- Build neural networks layers by passing the data directly
+- Build neural networks layers using `nn.Sequential()`
+
+__Lesson to Learn:__
+
+- Still working on splitting time between this challenge and working on my
+  thesis
