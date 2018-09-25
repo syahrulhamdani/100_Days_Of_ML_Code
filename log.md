@@ -297,3 +297,21 @@ __Lesson to Learn:__
 
 - Still working on splitting time between this challenge and working on my
   thesis
+
+
+## Day 17 - 25 September, 2018
+
+__Process:__
+
+- Train neural networks with PyTorch
+
+__Achievment:__
+
+- Trained neural networks using PyTorch
+
+__Lesson to Learn:__
+
+- Doesn't understand yet how PyTorch do the training, so need to explore
+  PyTorch more
+- Need to practice building Neural Network from scratch only using Numpy to get
+  more intuition how it works and implement Gradient Descent for doing Backprop with Real cases
