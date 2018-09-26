@@ -315,3 +315,21 @@ __Lesson to Learn:__
   PyTorch more
 - Need to practice building Neural Network from scratch only using Numpy to get
   more intuition how it works and implement Gradient Descent for doing Backprop with Real cases
+
+
+## Day 18 - 26 September, 2018
+
+__Process:__
+
+- Getting started official tutorial of PyTorch
+- Getting started official tutorial of building NN using PyTorch
+- Start to build neural network from scratch using only basic library
+
+__Achievement:__
+
+- Get a deeper understanding of tensor in PyTorch
+- Get a deeper understanding of how autograd works in PyTorch
+
+__Lesson to Learn:__
+
+- Take a notes of retain\_graph while implement `requires_grad=True`
