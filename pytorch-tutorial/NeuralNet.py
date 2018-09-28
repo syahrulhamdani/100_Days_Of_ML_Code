@@ -28,3 +28,49 @@ class Network(nn.Module):
         x = self.output(x)
 
         return F.log_softmax(x, dim=1)
+
+def train(model, trainloader, testloader, criterion, optimizer, epochs=3):
+    epoch_loss = 0
+    print_every = 50
+    steps = 0
+
+    for e in range(epochs):
+        model.train()
+        for images, labels in trainloader:
+            steps += 1
+
+            images.resize_(images.shape[0], 784)
+            # forward pass
+            output = model.forward(images)
+            loss = criterion(output, labels)
+            # backward pass
+            optimizer.zero_grad()
+            loss.backward()
+            optimizer.step()
+
+            epoch_loss += loss.item()
+
+            if steps % print_every == 0:
+                model.eval()
+                test_loss, accuracy = _validation(model, testloader, criterion)
+                print('Epoch: {}/{}..'.format(e+1, epochs),
+                      'Training Loss: {:.3f}'.format(epoch_loss/print_every),
+                      'Test Loss: {:.3f}'.format(test_loss/len(testloader)),
+                      'Accuracy: {:.3f}'.format(accuracy/len(testloader)))
+                epoch_loss = 0
+                model.train()
+
+
+def _validation(model, testloader, criterion):
+    test_loss = 0
+    accuracy = 0
+    for images, labels in testloader:
+        images.resize_(images.size()[0], 784)
+        output = model.forward(images)
+        test_loss += criterion(output, labels).item()
+        ps = torch.exp(output)
+        # compute accuracy
+        equality = (labels.data == ps.max(dim=1)[1])
+        accuracy += equality.type(torch.FloatTensor).mean()
+    
+    return test_loss, accuracy
