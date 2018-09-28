@@ -1,3 +1,4 @@
+import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
@@ -14,15 +15,15 @@ class Network(nn.Module):
         drop_p: float ranging (0,1), dropout probability
         '''
         super().__init__()
-        self.hidden_layers = nn.Linear(in_features=input_size, out_features=hidden_layers[0])
+        self.hidden_layers = nn.ModuleList([nn.Linear(input_size, hidden_layers[0])])
         layer_sizes = zip(hidden_layers[:-1], hidden_layers[1:])
-        self.hidden_layers.extend( [nn.Linear(h1, h2) for h1, h2 in layer_sizes] )
+        self.hidden_layers.extend([nn.Linear(h1, h2) for h1, h2 in layer_sizes])
         self.output = nn.Linear(hidden_layers[-1], output_size)
         self.dropout = nn.Dropout(drop_p)
     
     def forward(self, x):
         'forward pass `x` through the network, returns the output logits'
-        for linear in self.layer_sizes:
+        for linear in self.hidden_layers:
             x = F.relu(linear(x))
             x = self.dropout(x)
         x = self.output(x)
