@@ -333,3 +333,43 @@ __Achievement:__
 __Lesson to Learn:__
 
 - Take a notes of retain\_graph while implement `requires_grad=True`
+
+
+## Day 19 - 28 September, 2018
+
+__Process:__
+
+- Classifying Fashion-MNIST dataset by building Neural Network using PyTorch
+- Create a Python `class` for building a model, train it, validate it, and
+  inferencing
+- Save and load a model parameters via its `state_dict` using `torch.save` and
+  `torch.load`
+
+__Achievement:__
+
+- Hands-on PyTorch to build neural network using `nn.Sequential`, `optim`, and
+  `criterion`
+- Built a python class of Neural Network along with training, validation, and
+  inferencing step
+- Saved a model parameters in `checkpoint.pth` and load it to a new model
+- Created a checkpoint dictionary to contain all information about the model
+  and state\_dict so that it can be loaded exactly as it was trained
+- Provided a `load_checkpoint` function to rebuild a model with the saved
+  checkpoint file
+
+__Lesson to Learn:__
+
+- In PyTorch, `optim` is used to update the weights after computing the
+  gradient of the networks
+- In PyTorch, `criterion` is used to calculate the loss of the model given
+  specific loss function (e.g. Cross Entropy)
+- In PyTorch, `nn.Sequential` let us define the network __Sequentially__ and
+  ordered from input, hidden layer, and output layer along with activation
+function for each layer
+- `optimizer.zero_grad()` let us zeros the gradient after computing the
+  gradient via `loss.backward()` because PyTorch by default will sum up the
+gradient if we don't specify to zeros the gradient
+- Be aware when saving a model parameters so that we inlcude all informations
+  of model architecture and its state\_dict
+- Saving and loading a model parameters is as easy as using `torch.save` and
+  `torch.load` in PyTorch
